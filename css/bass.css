@@ -851,7 +851,7 @@ h6, .h6 { font-size: .75rem }
 
 body {
   color: #111;
-  background-color: white;
+  background-color: lightgray;
 }
 
 a {
@@ -1110,7 +1110,7 @@ input[type=range] {
   box-shadow: none;
 }
 
-.button-transparent:hover:before, 
+.button-transparent:hover:before,
 .button-transparent:focus:before {
   opacity: .09375;
 }
@@ -1118,7 +1118,7 @@ input[type=range] {
 .button-transparent:focus {
   outline: none;
   border-color: transparent;
-  box-shadow: 0 0 0 2px; 
+  box-shadow: 0 0 0 2px;
 }
 
 .button-transparent:active,
@@ -1255,3 +1255,14 @@ input[type=range] {
 .border-darken-3 { border-color: rgba(0,0,0,.25) }
 .border-darken-4 { border-color: rgba(0,0,0,.5) }
 .muted { opacity: .5 }
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: lightgrey;
+   color: white;
+   text-align: center;
+   max-height: 25px;
+}

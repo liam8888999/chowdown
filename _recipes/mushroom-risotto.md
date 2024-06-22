@@ -1,36 +1,29 @@
 ---
 
 layout: recipe
-title:  "Mushroom Risotto"
-image: mushroom-risotto.jpg
-tags: mains, veg
-
-ingredients:
-- 10oz shitake mushrooms (we usually buy two 5oz grocery packages)
-- 1 cup arborio rice
-- 2 cups chicken stock
-- 4 tbsp butter (halved)
-- 1 small onion, diced
-- 6 cloves garlic
-- 1.5 cups white wine
-- 1 cup beer (drink the rest)
-- half a lemon
-- 1 cup fresh grated parmesan cheese, plus more for serving
-- sprig of parsley (or your favorite herb)
-- salt
-- pepper
-
-directions:
-- Add the chicken stock, 1 cup white wine, and 1 cup beer to a stock pock and bring to a simmer (4 cups total). Reduce heat or set aside.
-- Add 2 tbsp butter, garlic, and onions to a deep pan and cook until translucent (a couple minutes). Add one package (or half) of your mushrooms and cook down. Salt and pepper to taste (small dash of salt, hearty crack of pepper for me, please).
-- Add the rice into the pan and toss to coat. Toast for a few minutes.
-- Add the remaining white wine and juice from half a lemon to deglaze the pan, scraping up all the good bits.
-- Add a large ladle (or two) of the hot stock mixture into the rice pan. Here's where we get patient. Cook the stock down (near dry) before adding another ladle. Repeat.
-- Continue to add a ladle at a time, letting it fully absord while stirring, until the stock is gone or the rice is tender. Fair game to taste the rice a few times in search of the perfect tenderness.
-- Meanwhile, let's roast our other pack of fresh mushrooms. Get the remaining half on a sheet pan and under a 450° broiler. Keep an eye on them but cook til crispy and brown on the edges.
-- When the rice is tender and the mushrooms in the oven are crisp, stir your parmesan and remaining 2tbps butter into the rice. Plate your risotto and top with our roasted mushrooms, our herb, more parmesan, and a crack of black pepper.
-
-
+title: "Mushroom risotto"
+tags: italian, mushrooms, wine, rice
 ---
 
-Risotto is one of those recipes that sound tough but really isn't that tricky (but is totally tasty). This recipe is a mash between a [Jamie Oliver](https://www.jamieoliver.com/recipes/rice-recipes/grilled-mushroom-risotto/) method and a [Tasty 101 video](https://tasty.co/recipe/mushroom-risotto). Jamie asked for dried mushrooms (proved to be hard to find and expensive here) and Tasty didn't have enough mushroom punch (so we added back the roasted topper). The best of both worlds, and easier than I've previously imagined! 
+prepTime: 5 min
+cookTime: 20-30 min
+recipeYield: 4
+
+ingredients:
+- Olive oil
+- 1 shallot
+- 4 cloves of garlic
+- 300g button or crimini mushrooms
+- 400g risotto rice (Arborio, Carnaroli or Vialone Nano)
+- 1/2 cup white wine (optional)
+- Mushroom or chicken stock
+- Butter
+- Grated Pecorino or Parmesan cheese
+
+directions:
+- Finely mince the shallot and garlic and slice the mushrooms into large pieces.
+- Heat a pan with some olive oil on medium-high heat. Ideally this should be a wide skillet with tall sides, but a pot will also do the job.
+- Saute the vegetables until fragrant, then add the mushrooms with a pinch of salt and cook them down until they're nicely browned, about 10 minutes or so.
+- Add the rice in and let it toast for about a minute or so. This will develop some nice nutty flavors, but overdoing this will affect the creaminess of the finished dish.
+- Deglaze with white wine and let the alcohol cook off. After that start ladling in the stock bit by bit stirring constantly for about 20-30 minutes (depending on the brand of rice used), until the rice is cooked but has a slight bite to it.
+- Turn off the heat and add a couple tablespoons of cold butter and grated cheese, and stir well to emulsify. Check for final seasoning and serve.

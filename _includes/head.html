@@ -8,38 +8,21 @@
 
   <link href="{{ "/css/bass.css" | prepend: site.baseurl }}" rel="stylesheet">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl }}" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.4/hammer.min.js"></script>
-  
+
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/icons/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/icons/favicon-16x16.png">
-  <link rel="manifest" href="{{ site.baseurl }}/manifest.json">
+  <link rel="manifest" href="{{ site.baseurl }}/icons/site.webmanifest">
   <link rel="mask-icon" href="{{ site.baseurl }}/icons/safari-pinned-tab.svg" color="#007fff">
   <link rel="shortcut icon" href="{{ site.baseurl }}/icons/favicon.ico">
   <meta name="msapplication-TileColor" content="#007fff">
   <meta name="msapplication-config" content="{{ site.baseurl }}/icons/browserconfig.xml">
   <meta name="theme-color" content="#007fff">
 
-  <script>
-    if ("serviceWorker" in navigator) {
-    if (navigator.serviceWorker.controller) {
-      console.log("An active service worker found, no need to register");
-    } else {
-      // Register the service worker
-      navigator.serviceWorker
-        .register("{{ site.baseurl }}/serviceworker.js", {
-          scope: "./"
-        })
-        .then(function (reg) {
-          console.log("Service worker has been registered for scope: " + reg.scope);
-        });
-    }
-  }
-  </script>
-  
   <!-- Twitter Cards -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@chowdownapp">
@@ -49,4 +32,40 @@
   {% if page.directions %}<meta name="twitter:description" content="{{ page.content | strip_html }}">{% else %}<meta name="twitter:description" content="Chowdown">{% endif %}
   {% if page.image %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/{{ page.image }}">{% else %}<meta name="twitter:image:src" content="{{site.baseurl}}/images/crockpot-buffalo-chicken.jpg">{% endif %}
 
+  <style>
+  .collapsible {
+    background-color: lightgrey;
+    color: #007FFF;
+    cursor: pointer;
+    padding: 18px;
+    width: 20%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+
+  .active, .collapsible:hover {
+    background-color: #cccccc;
+  }
+
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: lightgrey;
+  }
+
+  .arrow {
+  border: solid #007FFF;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+  </style>
 </head>
