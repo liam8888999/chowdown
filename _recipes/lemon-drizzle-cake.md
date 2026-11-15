@@ -2,6 +2,7 @@
 
 layout: recipe
 title: "Lemon Drizzle Cake"
+image: lemon-drizzle-cake.webp
 
 tags: 
 - citrus
