@@ -7,7 +7,8 @@ tags:
 - citrus
 - desert
 
-prepTime: 15 min
+prepTime: 
+- 15 min
 cookTime: 45 min
 recipeYield: 10
 
