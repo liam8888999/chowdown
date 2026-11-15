@@ -48,6 +48,14 @@ layout: default
 
     <div class="text-left text-lg leading-loose [&>*]:mb-6 [&_a]:underline [&_a]:decoration-[3px] [&_a]:decoration-primary [&_a]:underline-offset-2" itemprop="description">{{page.content}}</div>
 
+    {% if page.prep_time or page.cook_time or page.servings %}
+<p class="recipe-meta">
+  {% if page.prep_time %}<strong>Prep:</strong> {{ page.prep_time }}{% endif %}
+  {% if page.cook_time %}{% if page.prep_time %} &nbsp;|&nbsp; {% endif %}<strong>Cook:</strong> {{ page.cook_time }}{% endif %}
+  {% if page.servings %}{% if page.prep_time or page.cook_time %} &nbsp;|&nbsp; {% endif %}<strong>Serves:</strong> {{ page.servings }}{% endif %}
+</p>
+{% endif %}
+
   </header>
 
   {% if page.nutrition %}
@@ -70,14 +78,6 @@ layout: default
         {% endfor %}
       </ul>
       {% endif %}
-
-      {% if page.prep_time or page.cook_time or page.servings %}
-<ul class="recipe-meta">
-  {% if page.prep_time %}<li><strong>Prep:</strong> {{ page.prep_time }}</li>{% endif %}
-  {% if page.cook_time %}<li><strong>Cook:</strong> {{ page.cook_time }}</li>{% endif %}
-  {% if page.servings %}<li><strong>Serves:</strong> {{ page.servings }}</li>{% endif %}
-</ul>
-{% endif %}
 
       {% if page.ingredients %}
       <h2 class="uppercase text-primary font-semibold mb-2">{{ site.translation[site.language].ingredients }}</h2>
