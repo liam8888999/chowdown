@@ -10,7 +10,7 @@ tags:
 
 prep_time: 15 min
 cook_time: 45 min
-recipeYield: 10 
+servings: 10 
 
 ingredients:
 - 225g unsalted butter, softened
