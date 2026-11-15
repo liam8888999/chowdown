@@ -49,7 +49,10 @@ layout: default
     <div class="text-left text-lg leading-loose [&>*]:mb-6 [&_a]:underline [&_a]:decoration-[3px] [&_a]:decoration-primary [&_a]:underline-offset-2" itemprop="description">{{page.content}}</div>
 
     {% if page.prep_time or page.cook_time or page.servings %}
-<p class="recipe-meta" style="margin: 0.5rem 0 1rem; color: #666;">
+<p class="recipe-meta" style="margin: 0.25rem 0 0.5rem !important;
+  padding: 0 !important;
+  line-height: 1.3;
+  color: #666;">
   {% if page.prep_time %}<strong>Prep:</strong> {{ page.prep_time }}{% endif %}
   {% if page.cook_time %}{% if page.prep_time %} <br> {% endif %}<strong>Cook:</strong> {{ page.cook_time }}{% endif %}
   {% if page.servings %}{% if page.prep_time or page.cook_time %} <br> {% endif %}<strong>Serves:</strong> {{ page.servings }}{% endif %}
