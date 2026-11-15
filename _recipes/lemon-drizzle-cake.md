@@ -7,20 +7,12 @@ tags:
 - citrus
 - desert
 
-prepTime: 
-- 15 min
-cookTime: 45 min
-recipeYield: 10
-
 ingredients:
 - 225g unsalted butter, softened
 - 225g caster sugar
 - 4 eggs
 - 225g self-raising flour
 - 1 lemon, zested
-
-For the drizzle topping:
-
 - 1½ lemons, juiced
 - 85g caster sugar
 
@@ -37,6 +29,9 @@ directions:
 
 ---
 
-## Note
+prepTime: 15 min
+cookTime: 45 min
+recipeYield: 10 
 
-- Will keep in an airtight container for 3-4 days, or freeze for up to 1 month.
+Note:
+Will keep in an airtight container for 3-4 days, or freeze for up to 1 month.
