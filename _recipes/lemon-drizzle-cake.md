@@ -7,6 +7,10 @@ tags:
 - citrus
 - desert
 
+prepTime: 15 min
+cookTime: 45 min
+recipeYield: 10 
+
 ingredients:
 - 225g unsalted butter, softened
 - 225g caster sugar
@@ -29,9 +33,4 @@ directions:
 
 ---
 
-prepTime: 15 min
-cookTime: 45 min
-recipeYield: 10 
-
-Note:
 Will keep in an airtight container for 3-4 days, or freeze for up to 1 month.
