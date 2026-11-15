@@ -71,6 +71,14 @@ layout: default
       </ul>
       {% endif %}
 
+      {% if page.prep_time or page.cook_time or page.servings %}
+<ul class="recipe-meta">
+  {% if page.prep_time %}<li><strong>Prep:</strong> {{ page.prep_time }}</li>{% endif %}
+  {% if page.cook_time %}<li><strong>Cook:</strong> {{ page.cook_time }}</li>{% endif %}
+  {% if page.servings %}<li><strong>Serves:</strong> {{ page.servings }}</li>{% endif %}
+</ul>
+{% endif %}
+
       {% if page.ingredients %}
       <h2 class="uppercase text-primary font-semibold mb-2">{{ site.translation[site.language].ingredients }}</h2>
       <ul itemprop="ingredients" class="flex flex-col gap-2 mb-8">
