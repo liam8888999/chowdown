@@ -1,7 +1,7 @@
 ---
 
 layout: recipe
-title:  "Jalapeno Cornbread"
+title:  "Lemon drizzle cake"
 image: jalapeno-cornbread.jpg
 
 tags:
